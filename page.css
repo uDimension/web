@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+}
+.inside:hover {
+    transform: scale(1);
+}
+.img-circle
+{
+    width: 140px;
+    height: 140px;
+    opacity: 0.5;
+    background-image: url("imgs/back.jpg");
+    background-size: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+
+}
+
+.img-circle:hover {
+    opacity: 1;
+    background-size: 250%;
+    background-color: rgb(69, 118, 35);
+}
+
+.extra {
+    transform: scale(1.2);
+}
